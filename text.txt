@@ -7,3 +7,18 @@
 (4) git commit -m “Commit message”
 
 (5) git push -f origin master
+
+
+----------------------------------------------------------------------
+
+Steps to deploy in render
+
+give the name
+select the region 
+leave the root directory as emply 
+build cvommand =====> nom install
+run command ========? node sewrver.js
+env variable ==> BD_URL
+value=====> connection string of mongodb
+
+
