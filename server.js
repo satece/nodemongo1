@@ -20,7 +20,7 @@ App.get('/product', async (req, res) => {
     try {
         const data = {
             name: String(req.query.name),
-            quantity: Number(req.query.quantity)
+            quantity: String(req.query.quantity)
         };
 
         const product = await Product.create(data);
